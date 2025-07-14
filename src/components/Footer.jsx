@@ -1,6 +1,6 @@
 const Footer = () => (
-  <footer>
+  <div className="footer">
     <a href="https://github.com/thathsaraudari/recipe-book-app" target="_blank">GitHub Repo</a>
-  </footer>
+  </div>
 );
 export default Footer;

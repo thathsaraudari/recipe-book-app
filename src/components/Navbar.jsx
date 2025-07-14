@@ -1,6 +1,6 @@
 const Navbar = () => (
-  <nav>
+  <div class="navbar">
     <h1>Recipe Book</h1>
-  </nav>
+  </div>
 );
 export default Navbar;
