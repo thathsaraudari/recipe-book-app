@@ -7,7 +7,6 @@ const RecipeCard = ({recipe, onDelete}) => (
             Calories: {recipe.calories}{" "}
             {recipe.calories < 300 ? "🥗" : "🍔"}
         </p>
-        <p>{recipe.vegetarian ? "🌱 Vegetarian" : "🍖 Non-Vegetarian"}</p>
         <button onClick={() => onDelete(recipe.id)}>Delete</button>
     </div>
 
